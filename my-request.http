@@ -1,0 +1,87 @@
+POST http://localhost:4000/users/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "nikes23@hotmail.com",
+  "password": "12344020230d"
+}
+###
+POST http://localhost:4000/users/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "nikes23@hotmail.de",
+  "password": "hallo"
+}
+
+###
+POST http://localhost:4000/users/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "toni",
+  "password": "hallo"
+}
+
+###
+POST http://localhost:4000/users/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "Vasya",
+  "password": "Pupkin",
+  "email": "vaso.pupkin@pupkinworld.com"
+}
+
+###
+POST http://localhost:4000/users/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "toni",
+  "password": "hallo",
+  "email": "nikes23@hotmail.de"
+}
+
+###
+POST http://localhost:4000/users/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "toni23",
+  "password": "hallo",
+  "email": "toni23@hotm4ail.de"
+}
+
+###
+POST http://localhost:4000/artikel/addartikel
+Content-Type: application/json
+Accept: application/json
+
+{
+  "lieferant": "Admonter",
+  "artikeltyp": "Parkett",
+  "kategorie": "Holzarten",
+  "artnrlieferant": "987654321",
+  "eancode": "12345678",
+  "material": "Eiche",
+  "dimension": "Dimension",
+  "haptik": "Haptik",
+  "optik": "Optik"
+}
+
+###
+POST http://localhost:4000/users/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "toni",
+  "password": "toni"
+}
